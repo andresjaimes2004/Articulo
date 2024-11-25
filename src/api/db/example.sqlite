@@ -1,0 +1,9 @@
+CREATE TABLE usuario (
+    id INTEGER PRIMARY KEY AUTOINCREMENT, -- Identificador único autoincremental
+    tipo_documento VARCHAR(50) NOT NULL, -- Tipo de documento del usuario
+    nombre VARCHAR(100) NOT NULL, -- Nombre del usuario
+    apellidos VARCHAR(100) NOT NULL, -- Apellidos del usuario
+    municipio VARCHAR(100) NOT NULL, -- Municipio del usuario
+    departamento VARCHAR(100) NOT NULL, -- Departamento del usuario
+    antecedentes BOOLEAN NOT NULL -- Indica si tiene antecedentes (true/false)
+);
